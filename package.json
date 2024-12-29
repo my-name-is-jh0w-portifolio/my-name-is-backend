@@ -1,0 +1,32 @@
+{
+	"name": "my-name-is-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsx watch src/server.ts",
+		"lint": "biome check .",
+		"format": "biome check . --write"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"engines": {
+		"node": "23.5.0"
+	},
+	"packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a",
+	"dependencies": {
+		"@fastify/cors": "^10.0.1",
+		"@fastify/swagger": "^9.4.0",
+		"@fastify/swagger-ui": "^5.2.0",
+		"@types/node": "^22.10.2",
+		"fastify": "^5.2.0",
+		"fastify-type-provider-zod": "^4.0.2",
+		"tsx": "^4.19.2",
+		"typescript": "^5.7.2",
+		"zod": "^3.24.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
+}
