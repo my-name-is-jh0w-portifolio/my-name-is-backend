@@ -93,7 +93,8 @@
 		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"[prisma]": {
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "Prisma.prisma"
 	},
 	"[javascript]": {
 		"editor.defaultFormatter": "biomejs.biome"

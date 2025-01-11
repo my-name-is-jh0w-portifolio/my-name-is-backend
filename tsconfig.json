@@ -4,13 +4,17 @@
 	"_version": "22.0.0",
 
 	"compilerOptions": {
-		"lib": ["es2023"],
+		"resolveJsonModule": true,
+		"lib": ["es2023", "DOM"],
 		"module": "node16",
 		"target": "es2022",
-
+		"rootDirs": ["./src", "src/types"],
+		"outDir": "./dist",
 		"strict": true,
 		"esModuleInterop": true,
 		"skipLibCheck": true,
-		"moduleResolution": "node16"
+		"moduleResolution": "node16",
+		"typeRoots": ["./@utils"],
+		"paths": { "@/*": ["./src/*"] }
 	}
 }

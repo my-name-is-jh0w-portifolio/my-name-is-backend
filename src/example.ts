@@ -1,6 +1,6 @@
 import { randomUUID } from "node:crypto";
 import z from "zod";
-import type { FastifyTypedInstance } from "./@types";
+import type { FastifyTypedInstance } from "./fastifyInstance.type";
 
 interface User {
 	id: string;
